@@ -42,19 +42,11 @@ const Library = () => {
       <h1 className="text-[30px] font-bold p-3 text-center text-black">
         {library.name}
       </h1>
-      <div className="flex items-center bg-[#dbecf3] rounded-[15px] m-3">
-        <input
-          type="text"
-          placeholder="Search..."
-          className="bg-transparent px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow text-[#008089] placeholder-[#008089]::placeholder"
-        />
-        <div className="p-2">
-          <SearchOutlined />
-        </div>
-      </div>
+
       <List style={{ backgroundColor: "transparent" }}>
         {items.map((item) => (
           <LibraryItemCard
+            author={item.author}
             id={item.id}
             key={item.id}
             item={item}

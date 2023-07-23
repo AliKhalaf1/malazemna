@@ -6,7 +6,7 @@ import { Card } from "react-bootstrap";
 const HomeItemCard = ({ item }) => {
   console.log(item);
   return (
-    <>
+    <div className="home">
       <Card>
         <Card.Img variant="top" src={item.imageLink} />
         <Card.Body>
@@ -25,7 +25,7 @@ const HomeItemCard = ({ item }) => {
           </Card.Text>
         </Card.Body>
       </Card>
-    </>
+    </div>
   );
 };
 

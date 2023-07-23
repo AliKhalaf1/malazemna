@@ -14,7 +14,9 @@
         "price": 10.99,
         "numberOfPages": 200,
         "imageLink": "https://via.placeholder.com/50",
-        "author": "Author 1"
+        "author": "Author 1",
+        "year": "أولى",
+        "college": "طب"
       },
       {
         "id": 2,
@@ -22,7 +24,9 @@
         "price": 15.99,
         "numberOfPages": 300,
         "author": "Author 2",
-        "imageLink": "https://via.placeholder.com/50"
+        "imageLink": "https://via.placeholder.com/50",
+        "year": "ثانية",
+        "college": "أسنان"
       }
     ]
   },
@@ -41,7 +45,9 @@
         "price": 10.99,
         "numberOfPages": 200,
         "imageLink": "https://via.placeholder.com/50",
-        "author": "Author 1"
+        "author": "Author 1",
+        "year": "ثالثة",
+        "college": "هندسة"
       },
       {
         "id": 2,
@@ -49,7 +55,9 @@
         "price": 15.99,
         "numberOfPages": 300,
         "author": "Author 2",
-        "imageLink": "https://via.placeholder.com/50"
+        "imageLink": "https://via.placeholder.com/50",
+        "year": "رابعة",
+        "college": "طب"
       }
     ]
   },
@@ -68,7 +76,9 @@
         "price": 10.99,
         "numberOfPages": 200,
         "imageLink": "https://via.placeholder.com/50",
-        "dr": "دكتور ماهر"
+        "dr": "دكتور ماهر",
+        "year": "أولى",
+        "college": "أسنان"
       },
       {
         "id": 2,
@@ -76,7 +86,9 @@
         "price": 15.99,
         "numberOfPages": 300,
         "dr": "دكتور ماهر",
-        "imageLink": "https://via.placeholder.com/50"
+        "imageLink": "https://via.placeholder.com/50",
+        "year": "ثالثة",
+        "college": "طب"
       }
     ]
   },
@@ -95,7 +107,9 @@
         "price": 12.99,
         "numberOfPages": 250,
         "imageLink": "https://via.placeholder.com/50",
-        "author": "Author X"
+        "author": "Author X",
+        "year": "رابعة",
+        "college": "هندسة"
       },
       {
         "id": 2,
@@ -103,7 +117,9 @@
         "price": 17.99,
         "numberOfPages": 350,
         "author": "Author Y",
-        "imageLink": "https://via.placeholder.com/50"
+        "imageLink": "https://via.placeholder.com/50",
+        "year": "ثانية",
+        "college": "طب"
       }
     ]
   },
@@ -122,7 +138,9 @@
         "price": 9.99,
         "numberOfPages": 150,
         "imageLink": "https://via.placeholder.com/50",
-        "author": "Author A"
+        "author": "Author A",
+        "year": "ثالثة",
+        "college": "هندسة"
       },
       {
         "id": 2,
@@ -130,7 +148,9 @@
         "price": 14.99,
         "numberOfPages": 250,
         "author": "Author B",
-        "imageLink": "https://via.placeholder.com/50"
+        "imageLink": "https://via.placeholder.com/50",
+        "year": "رابعة",
+        "college": "أسنان"
       }
     ]
   },
@@ -149,7 +169,9 @@
         "price": 11.99,
         "numberOfPages": 180,
         "imageLink": "https://via.placeholder.com/50",
-        "author": "Author Z"
+        "author": "Author Z",
+        "year": "أولى",
+        "college": "طب"
       },
       {
         "id": 2,
@@ -157,7 +179,9 @@
         "price": 16.99,
         "numberOfPages": 220,
         "author": "Author C",
-        "imageLink": "https://via.placeholder.com/50"
+        "imageLink": "https://via.placeholder.com/50",
+        "year": "ثانية",
+        "college": "هندسة"
       }
     ]
   }
