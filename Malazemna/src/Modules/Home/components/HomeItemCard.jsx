@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Rating from "@mui/material/Rating";
 import PropTypes from "prop-types";
 import "./HomeItemCard.scss";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 const HomeItemCard = ({ item }) => {
   console.log(item);
   return (
