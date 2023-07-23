@@ -19,6 +19,10 @@ const Library = () => {
     );
     if (itemIndex === -1) {
       setCartItems((prevCartItems) => [...prevCartItems, item]);
+    } else if (item.count === 0) {
+      setCartItems((prevCartItems) => {
+        return prevCartItems.filter((cartItem) => cartItem.id !== item.id);
+      });
     } else {
       const updatedCartItems = [...cartItems];
       updatedCartItems[itemIndex].count = item.count;
@@ -34,7 +38,7 @@ const Library = () => {
         {cartItems.length === 0 ? (
           "Checkout"
         ) : (
-          <Link to={"/orders"} state={{ cartItems: cartItems }}>
+          <Link to={"/cart"} state={{ cartItems: cartItems }}>
             Checkout
           </Link>
         )}
