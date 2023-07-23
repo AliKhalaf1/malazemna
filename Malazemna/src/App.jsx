@@ -5,6 +5,7 @@ import Home from "./Modules/Home/Home.jsx";
 import Library from "./Modules/Library/Library";
 import NavBar from "./Modules/NavBar/NavBar.jsx";
 import Orders from "./Modules/Orders/Orders";
+import Cart from "./Modules/Cart/Cart";
 const App = () => {
   return (
     <>
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/library/:id" element={<Library />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <NavBar />
     </>
