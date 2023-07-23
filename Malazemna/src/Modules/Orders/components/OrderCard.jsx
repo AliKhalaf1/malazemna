@@ -32,7 +32,8 @@ const OrderCard = ({ order }) => {
             </Card.Text>
           </div>
         </Card.Body>
-        <Card.Footer className="text-end">
+        <Card.Footer>
+          <span>EGP {order.totalPrice}</span>
           <Button variant="outline-primary">
             <div className="button-icon">
               <IoIosRefresh size={14} />
@@ -52,6 +53,7 @@ OrderCard.propTypes = {
     id: PropTypes.number.isRequired,
     status: PropTypes.oneOf(["Pending", "Successful", "Cancelled"]),
     imageLink: PropTypes.string.isRequired,
+    totalPrice: PropTypes.number.isRequired,
   }).isRequired,
 };
 

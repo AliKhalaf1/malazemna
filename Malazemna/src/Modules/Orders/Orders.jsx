@@ -4,29 +4,32 @@ const Orders = () => {
   const [orders, setOrders] = useState([
     {
       library_name: "Speed",
-      id: 1,
+      id: 828301,
       status: "Cancelled",
       order_date: "23 May 2023 12:03",
       imageLink: "https://via.placeholder.com/50",
+      totalPrice: 10.99,
     },
     {
       library_name: "El Khawaga",
-      id: 1,
+      id: 212344,
       status: "Pending",
       order_date: "22 May 2023 9:49",
       imageLink: "https://via.placeholder.com/50",
+      totalPrice: 40.99,
     },
     {
       library_name: "Resala",
-      id: 3,
+      id: 3491123,
       status: "Successful",
       order_date: "21 May 2023 18:43",
       imageLink: "https://via.placeholder.com/50",
+      totalPrice: 104.99,
     },
   ]);
   useEffect(() => {
     // Load user orders from DB
-  });
+  }, []);
 
   return (
     <>

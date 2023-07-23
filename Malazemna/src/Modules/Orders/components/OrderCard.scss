@@ -29,4 +29,9 @@
     justify-content: center;
     align-items: center;
   }
+  .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
