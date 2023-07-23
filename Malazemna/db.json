@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "library 1",
+    "location": "library 1 location",
+    "Rating": 4.5,
+    "number_of_ratings": 100,
+    "distance_from_you": 14.5,
+    "imageLink": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 2,
+    "name": "library 2",
+    "location": "library 2 location",
+    "Rating": 4.2,
+    "number_of_ratings": 75,
+    "distance_from_you": 9.2,
+    "imageLink": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 3,
+    "name": "library 3",
+    "location": "library 3 location",
+    "Rating": 3.8,
+    "number_of_ratings": 50,
+    "distance_from_you": 5.7,
+    "imageLink": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 4,
+    "name": "library 4",
+    "location": "library 4 location",
+    "Rating": 4.8,
+    "number_of_ratings": 120,
+    "distance_from_you": 22.1,
+    "imageLink": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 5,
+    "name": "library 5",
+    "location": "library 5 location",
+    "Rating": 4.0,
+    "number_of_ratings": 90,
+    "distance_from_you": 10.8,
+    "imageLink": "https://via.placeholder.com/50"
+  },
+  {
+    "id": 6,
+    "name": "library 6",
+    "location": "library 6 location",
+    "Rating": 3.5,
+    "number_of_ratings": 60,
+    "distance_from_you": 8.3,
+    "imageLink": "https://via.placeholder.com/50"
+  }
+]

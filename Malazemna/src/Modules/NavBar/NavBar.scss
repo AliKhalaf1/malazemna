@@ -1,13 +1,11 @@
 .mobile-bottom-nav {
+  overflow: hidden;
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
+  width: 100%;
 
   //give nav it's own compsite layer
   will-change: transform;
-  transform: translateZ(0);
 
   display: flex;
 
