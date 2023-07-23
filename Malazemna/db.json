@@ -1,56 +1,164 @@
 [
   {
     "id": 1,
-    "name": "library 1",
-    "location": "library 1 location",
+    "name": "Library 1",
+    "location": "Library 1 Location",
     "Rating": 4.5,
     "number_of_ratings": 100,
     "distance_from_you": 14.5,
-    "imageLink": "https://via.placeholder.com/50"
+    "imageLink": "https://via.placeholder.com/50",
+    "items": [
+      {
+        "id": 1,
+        "name": "Book 1",
+        "price": 10.99,
+        "numberOfPages": 200,
+        "imageLink": "https://via.placeholder.com/50",
+        "author": "Author 1"
+      },
+      {
+        "id": 2,
+        "name": "Book 2",
+        "price": 15.99,
+        "numberOfPages": 300,
+        "author": "Author 2",
+        "imageLink": "https://via.placeholder.com/50"
+      }
+    ]
   },
   {
     "id": 2,
-    "name": "library 2",
-    "location": "library 2 location",
+    "name": "Library 2",
+    "location": "Library 2 Location",
     "Rating": 4.2,
-    "number_of_ratings": 75,
-    "distance_from_you": 9.2,
-    "imageLink": "https://via.placeholder.com/50"
+    "number_of_ratings": 80,
+    "distance_from_you": 8.2,
+    "imageLink": "https://via.placeholder.com/50",
+    "items": [
+      {
+        "id": 1,
+        "name": "Book 1",
+        "price": 10.99,
+        "numberOfPages": 200,
+        "imageLink": "https://via.placeholder.com/50",
+        "author": "Author 1"
+      },
+      {
+        "id": 2,
+        "name": "Book 2",
+        "price": 15.99,
+        "numberOfPages": 300,
+        "author": "Author 2",
+        "imageLink": "https://via.placeholder.com/50"
+      }
+    ]
   },
   {
     "id": 3,
-    "name": "library 3",
-    "location": "library 3 location",
+    "name": "Library 3",
+    "location": "Library 3 Location",
     "Rating": 3.8,
     "number_of_ratings": 50,
     "distance_from_you": 5.7,
-    "imageLink": "https://via.placeholder.com/50"
+    "imageLink": "https://via.placeholder.com/50",
+    "items": [
+      {
+        "id": 1,
+        "name": "Metabolism",
+        "price": 10.99,
+        "numberOfPages": 200,
+        "imageLink": "https://via.placeholder.com/50",
+        "dr": "دكتور ماهر"
+      },
+      {
+        "id": 2,
+        "name": "Kidney",
+        "price": 15.99,
+        "numberOfPages": 300,
+        "dr": "دكتور ماهر",
+        "imageLink": "https://via.placeholder.com/50"
+      }
+    ]
   },
   {
     "id": 4,
-    "name": "library 4",
-    "location": "library 4 location",
-    "Rating": 4.8,
+    "name": "Library 4",
+    "location": "Library 4 Location",
+    "Rating": 4.0,
     "number_of_ratings": 120,
-    "distance_from_you": 22.1,
-    "imageLink": "https://via.placeholder.com/50"
+    "distance_from_you": 10.0,
+    "imageLink": "https://via.placeholder.com/50",
+    "items": [
+      {
+        "id": 1,
+        "name": "Book A",
+        "price": 12.99,
+        "numberOfPages": 250,
+        "imageLink": "https://via.placeholder.com/50",
+        "author": "Author X"
+      },
+      {
+        "id": 2,
+        "name": "Book B",
+        "price": 17.99,
+        "numberOfPages": 350,
+        "author": "Author Y",
+        "imageLink": "https://via.placeholder.com/50"
+      }
+    ]
   },
   {
     "id": 5,
-    "name": "library 5",
-    "location": "library 5 location",
-    "Rating": 4.0,
+    "name": "Library 5",
+    "location": "Library 5 Location",
+    "Rating": 4.7,
     "number_of_ratings": 90,
-    "distance_from_you": 10.8,
-    "imageLink": "https://via.placeholder.com/50"
+    "distance_from_you": 12.3,
+    "imageLink": "https://via.placeholder.com/50",
+    "items": [
+      {
+        "id": 1,
+        "name": "Book X",
+        "price": 9.99,
+        "numberOfPages": 150,
+        "imageLink": "https://via.placeholder.com/50",
+        "author": "Author A"
+      },
+      {
+        "id": 2,
+        "name": "Book Y",
+        "price": 14.99,
+        "numberOfPages": 250,
+        "author": "Author B",
+        "imageLink": "https://via.placeholder.com/50"
+      }
+    ]
   },
   {
     "id": 6,
-    "name": "library 6",
-    "location": "library 6 location",
-    "Rating": 3.5,
-    "number_of_ratings": 60,
-    "distance_from_you": 8.3,
-    "imageLink": "https://via.placeholder.com/50"
+    "name": "Library 6",
+    "location": "Library 6 Location",
+    "Rating": 4.9,
+    "number_of_ratings": 200,
+    "distance_from_you": 18.0,
+    "imageLink": "https://via.placeholder.com/50",
+    "items": [
+      {
+        "id": 1,
+        "name": "Book Alpha",
+        "price": 11.99,
+        "numberOfPages": 180,
+        "imageLink": "https://via.placeholder.com/50",
+        "author": "Author Z"
+      },
+      {
+        "id": 2,
+        "name": "Book Beta",
+        "price": 16.99,
+        "numberOfPages": 220,
+        "author": "Author C",
+        "imageLink": "https://via.placeholder.com/50"
+      }
+    ]
   }
 ]
