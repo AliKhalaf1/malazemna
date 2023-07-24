@@ -18,14 +18,15 @@ const NavBar = () => {
             : "mobile-bottom-nav__item"
         }
       >
-        <div className="mobile-bottom-nav__item-content">
-          <i className="material-icons">
-            <HomeIcon />
-          </i>
-          Home
-        </div>
+        <a href="/">
+          <div className="mobile-bottom-nav__item-content">
+            <i className="material-icons">
+              <HomeIcon />
+            </i>
+            Home
+          </div>
+        </a>
       </div>
-
       <div
         className={
           location.pathname === "/search"
@@ -33,26 +34,30 @@ const NavBar = () => {
             : "mobile-bottom-nav__item"
         }
       >
-        <div className="mobile-bottom-nav__item-content">
-          <i className="material-icons">
-            <SearchIcon />
-          </i>
-          Search
-        </div>
+        <a href="/search">
+          <div className="mobile-bottom-nav__item-content">
+            <i className="material-icons">
+              <SearchIcon />
+            </i>
+            Search
+          </div>
+        </a>
       </div>
-      <div className="mobile-bottom-nav__item">
-        <div
-          className={
-            location.pathname === "/orders"
-              ? "mobile-bottom-nav__item mobile-bottom-nav__item--active"
-              : "mobile-bottom-nav__item"
-          }
-        >
-          <i className="material-icons">
-            <ReceiptIcon />
-          </i>
-          orders
-        </div>
+      <div
+        className={
+          location.pathname === "/orders"
+            ? "mobile-bottom-nav__item mobile-bottom-nav__item--active"
+            : "mobile-bottom-nav__item"
+        }
+      >
+        <a href="/orders">
+          <div className="mobile-bottom-nav__item">
+            <i className="material-icons">
+              <ReceiptIcon />
+            </i>
+            orders
+          </div>
+        </a>
       </div>
     </nav>
   );

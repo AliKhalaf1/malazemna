@@ -7,7 +7,7 @@ import { Card, Button } from "react-bootstrap";
 const OrderCard = ({ order }) => {
   console.log(order);
   return (
-    <>
+    <div className="order">
       <Card>
         <Card.Body>
           <Card.Img variant="top" src={order.imageLink} />
@@ -34,7 +34,7 @@ const OrderCard = ({ order }) => {
         </Card.Body>
         <Card.Footer>
           <span>EGP {order.totalPrice}</span>
-          <Button variant="outline-primary">
+          <Button variant="outline-warning">
             <div className="button-icon">
               <IoIosRefresh size={14} />
               <span> {"Re-order"}</span>
@@ -42,7 +42,7 @@ const OrderCard = ({ order }) => {
           </Button>
         </Card.Footer>
       </Card>
-    </>
+    </div>
   );
 };
 

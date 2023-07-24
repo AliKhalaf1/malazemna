@@ -54,14 +54,6 @@ const Cart = () => {
       <h1 className="text-[30px] font-bold p-3 text-center text-black">
         Checkout
       </h1>
-      <div className="flex items-center bg-[#dbecf3] rounded-[15px] m-3">
-        <input
-          type="text"
-          placeholder="Search..."
-          className="bg-transparent px-4 py-2 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-500 flex-grow text-[#008089] placeholder-[#008089]::placeholder"
-        />
-        {/* <div className="p-2"><SearchOutlined /></div> */}
-      </div>
       <List style={{ backgroundColor: "transparent" }}>
         {cartItems.map((item) => (
           <LibraryItemCard
@@ -78,25 +70,27 @@ const Cart = () => {
       <div className="p-4 text-black">
         <div className="flex justify-between mb-2">
           <p>Subtotal:</p>
-          <p>${subTotalPrice.toFixed(2)}</p>
+          <p>EGP{subTotalPrice.toFixed(2)}</p>
         </div>
         <div className="flex justify-between mb-2">
           <p>Fees:</p>
-          <p>${fees.toFixed(2)}</p>
+          <p>EGP{fees.toFixed(2)}</p>
         </div>
         <div className="flex justify-between mb-2">
           <p>Tax:</p>
-          <p>${tax.toFixed(2)}</p>
+          <p>EGP{tax.toFixed(2)}</p>
         </div>
         <div className="flex justify-between">
           <p className="font-bold">Total Amount:</p>
-          <p className="font-bold">${totalPrice.toFixed(2)}</p>
+          <p className="font-bold">EGP{totalPrice.toFixed(2)}</p>
         </div>
       </div>
       <div className="flex justify-end mr-5">
-        <button className=" bg-orange-500 hover:bg-orange-400 text-white font-bold py-2 px-4 rounded shadow">
-          Checkout
-        </button>
+        <a href="/orders">
+          <button className=" bg-orange-500 hover:bg-orange-400 text-white font-bold py-2 px-4 rounded shadow">
+            Checkout
+          </button>
+        </a>
       </div>
     </>
   );

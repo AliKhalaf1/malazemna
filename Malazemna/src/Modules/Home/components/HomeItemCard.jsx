@@ -11,12 +11,13 @@ const HomeItemCard = ({ item }) => {
         <Card.Img variant="top" src={item.imageLink} />
         <Card.Body>
           <Card.Title>{item.name}</Card.Title>
-          <div style={{ display: "flex" }}>
+          <div className="raitngs" style={{ display: "flex" }}>
             <Rating
               name="read-only"
               value={item.Rating}
               precision={0.5}
               readOnly
+              size="small"
             />
             <h1 className="ml-1 rating">({item.number_of_ratings})</h1>
           </div>

@@ -12,7 +12,7 @@ const Home = () => {
   };
   console.log(db);
   return (
-    <div className="p-3 m-4">
+    <div className="m-2">
       <Row>
         {db.map((library) => (
           <Link to={`library/${library.id}`}>
