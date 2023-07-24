@@ -34,14 +34,12 @@ const NavBar = () => {
             : "mobile-bottom-nav__item"
         }
       >
-        <a href="/search">
-          <div className="mobile-bottom-nav__item-content">
-            <i className="material-icons">
-              <SearchIcon />
-            </i>
-            Search
-          </div>
-        </a>
+        <div className="mobile-bottom-nav__item-content">
+          <i className="material-icons">
+            <SearchIcon />
+          </i>
+          Search
+        </div>
       </div>
       <div
         className={
