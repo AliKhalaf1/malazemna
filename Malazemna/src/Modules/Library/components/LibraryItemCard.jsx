@@ -36,15 +36,20 @@ const LibraryItemCard = ({ id, item, initialCount, addToCart }) => {
         <Card.Body>
           <Card.Title>{item.name}</Card.Title>
           <Card.Text className="location">{item.author}</Card.Text>
-          <Card.Text className="location">{`${item.year} - ${item.college}`}</Card.Text>
-          <Card.Text className="location">{`${item.price}EGP /  ${item.numberOfPages} pages `}</Card.Text>
+          <Card.Text
+            style={{ fontWeight: "bold", fontSize: "10px" }}
+            className="text-orange-400 text-3xs"
+          >{`${item.year} - ${item.college}`}</Card.Text>
+          <Card.Text
+            className="location "
+            style={{ fontWeight: "bold" }}
+          >{`${item.price}EGP /  ${item.numberOfPages} pages `}</Card.Text>
         </Card.Body>
         <div className="img-container">
           <Card.Img variant="top" src={item.imageLink} />
           <div className="counter">
             <button
               onClick={decrementCount}
-              // className={`text-3xl absolute z-40 left-2 w-6 h-6 flex items-center justify-center rounded-full bg-[${accentColor}] text-orange-600 `}
               className={`text-3xl  text-orange-600 `}
             >
               -
